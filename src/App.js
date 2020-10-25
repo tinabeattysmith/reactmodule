@@ -1,12 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+// import './FunctionalComponentDemo.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 import {
   BrowserRouter as Router,
 } from 'react-router-dom';
+
 
 
 const App = () => {
@@ -16,7 +18,7 @@ const App = () => {
       <Router>
         <Sidebar />
       </Router>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
